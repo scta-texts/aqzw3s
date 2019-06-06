@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Incipit Quarta</title>
+        <author>Petrus Hispanus</author>
+        <editor>Alonso</editor>
+        <respStmt>
+          <name>Ana Ferreira</name>
+          <resp>TEI Encoding</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Incipit Quarta</title>
+          <date when="2019-06-06">June 06, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://petrushispanus.eu/project1">Project Petrus Hispanus Works</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="A" n="cod-i3uy34">Alonso 1957</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-06-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+
+      </div>
+    </front>
+    <body>
+      <div >
+        <head>Incipit Quarta</head>
+        <p>Quomodo dicis, etc. usque in finem epistole talis est sensus: Qua ratione Thymothee potes dicere quod Ihesus, qui est super omnia per deitatem, sit supersubstantialiter omnibus hominibus comparatus per humanitatem. Ipse enim Ihesus non dicitur homo, sicut causans vel creans omnes homines, set sicut totaliter et perfecte vere factum hominem. Et licet perfectus sit homo, tamen nos non iudicamus vel diffinimus de ipso aliquid quasi de puro homine. Non enim tantum habet humanitatem: neque dicendum de eo est quod sit super omnem substantiam in quantum homo est. Set ipse verus homo est qui secundum diversa hominum merita hominum est amator. Et est super homines, quia est eorum dominus. Et est secundum homines, quia est ipsorum socius, utpote ex substantia hominum, substantia carnis factus, licet secundum deitatem omni substantie sit supercollocatus. Et nichilominus ipse Christus, licet habeat substantiam humanitatis, est tamen snperplenus supersubstantialitate omnis sublimitatis, qui semper est supersubstantialis habundantia vel plenitudine deitatis. Veniens autem ad substantiam humanitatis super substantiam hominis factus est substantia hominis et super naturam hominis operabatur ea que sunt super naturam hominis. Et hoc patet in beata Vir-
+ gine, que super naturam concepit Deum et hominem sine hominis semine. Similiter hoc monstratur in aqua maris, que cum naturaliter sit instabilis et fluida, tamen sustinuit gravitatem carnalium vel corporalium Christi pedum Christi et non cessit gravitati, set divina virtute constitit ne diffunderetur. Et per ista poterit aliquis cognoscere alia multa considerando, per quorum considerationem spiritualissimam animadvertet quod ea que de Christi humanitate affirmantur, per virtutem excessus possunt negari, verbi gratia, ut breviter dicamus: Christus neque homo erat, scilicet purus, neque sicut non homo, quia Deus. Unde sive affirmetur sive negetur ipsum fuisse hominem, utrumque verum est per excessum, quamvis ipse ultra homines per prerogativam sanctitatis et supra homines per excellentiam deitatis sit factus homo ex hominibus per substantiam humanitatis ex uno in alterum propagate. Alia vero eius opera non fuerunt pure divina, ut puri Dei, nec pure humana, ut puri hominis, set fuerunt ut Dei hominis. Quoniam Deus factus erat homo. Unde eius opera fuerunt quedam nova miracula, quia divina erant pariter et humana, dum eius corporali presentia frueremur.
+  </p>
+  
+      </div>
+    </body>
+  </text>
+</TEI>

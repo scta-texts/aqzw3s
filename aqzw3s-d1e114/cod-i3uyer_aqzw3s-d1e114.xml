@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Incipit Tertia</title>
+        <author>Petrus Hispanus</author>
+        <editor>Alonso</editor>
+        <respStmt>
+          <name>Ana Ferreira</name>
+          <resp>TEI Encoding</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Incipit Tertia</title>
+          <date when="2019-06-06">June 06, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://petrushispanus.eu/project1">Project Petrus Hispanus Works</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="A" n="cod-i3uy34">Alonso 1957</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-06-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+
+      </div>
+    </front>
+    <body>
+      <div >
+        <head>Incipit Tertia</head>
+        <p >Subito est, etc. usque in finem epistole talis est sensus: Subito est quod preter spem expectationis est et non ex apparente divina providentia vel potentia ad manifestam sensuum scientiam adductum. Et tale quid arbitramur significasse sacram scripturam in benigna Christi incarnatione. De qua sepe dicit: Ecce venio cito, vel subito veniet, secundum aliam translationem. Quia videlicet ex supersubstantiali occulto sue deitatis venit preter spem nostram ad manifestationem ex nobis assumpte humanitatis. Non enim sperabamus quod ita cito incarnaretur. Nec tamen ita manifestavit nobis suam humanitatem, quin reliquerit nobis occultam suam deitatem, tam in vivendo quam in nascendo, quod fuit mirabilius. Undc dicit Ysaias: Vere tu es Deus absconditus. Huiusmodi autem Ihesu misterium, videlicet donum incarnationis quod eductum est ad manifestationem cognitionis, ita absconditum est quod a nullo homine potest dici nec ab aliquo angelo conprehendi. Si autem ab aliquo contigerit illud dici, nichil tamen dictum est. Et si ab aliquo fuerit intellectum, tamen adhuc ignotum est. Quasi diceret: Et ineffabile remanet postquam fuerit dictum. Et ignotum, postquam fuerit intellectum.
+        </p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

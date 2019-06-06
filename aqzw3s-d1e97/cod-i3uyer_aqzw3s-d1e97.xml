@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Incipit Secunda</title>
+        <author>Petrus Hispanus</author>
+        <editor>Alonso</editor>
+        <respStmt>
+          <name>Ana Ferreira</name>
+          <resp>TEI Encoding</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Incipit Secunda</title>
+          <date when="2019-06-06">June 06, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://petrushispanus.eu/project1">Project Petrus Hispanus Works</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="A" n="cod-i3uy34">Alonso 1957</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-06-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+
+      </div>
+    </front>
+    <body>
+      <div >
+        <head>Incipit Secunda</head>
+        <p >AQuomodo quidem, etc. usque in finem epistole talis est sensus: Si deitatis et bonitatis divine habueris intelligentiam solum per simplicem scientiam, hoc est uti bono quo homo incipit bonificari et deificari. Si autem Deum inmutabiliter sive perseveranter quis fuerit inmitatus quod est Deum cognoscere per experientiam que superat simplicem deitatis et bonitatis cognitionem, quia per ipsam deificamur et bonificamur, hoc non est simpliciter donum, set est super omnia, idest super omne end materiatum et super thearchiam, idest super omnem intellectum creatum, et super boni principatum, idest super omne donum gratis datum. Ceterum si cognitio Dei per experientiam est principium magis deificandi deificatos et magis iustificandi iustificatos vel perficiendi perfectos, dubium non est quin ipse Deus, qui est actor omnis principii, sit supra predictam deitatis et divine bonitatis cognitionem sive sit per scientiam sive per experientiam sicut principaliter veram habens deitatem et bonitatem, cum ipse sit vere ininmitabilis et inconprehensibilis excedens omnes quantumcunque inmitabiles inmitationes Deum inmitantium et habitudines Deum participantium, quasi dicat: Si inmitabilis inmitatio Dei facit deificatum, multo magis non deificatus set Deus est qui super omnem inmutationem et inmitationem et participationem est.
+        </p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

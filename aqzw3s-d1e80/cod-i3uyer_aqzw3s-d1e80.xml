@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Incipit epistola beati Dionysii ad Gaium prima.</title>
+        <author>Petrus Hispanus</author>
+        <editor>Alonso</editor>
+        <respStmt>
+          <name>Ana Ferreira</name>
+          <resp>TEI Encoding</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Incipit epistola beati Dionysii ad Gaium prima.</title>
+          <date when="2019-06-06">June 06, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://petrushispanus.eu/project1">Project Petrus Hispanus Works</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="A" n="cod-i3uy34">Alonso 1957</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-06-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+
+      </div>
+    </front>
+    <body>
+      <div>
+        <head>Incipit epistola beati Dionysii ad Gaium prima.</head>
+        <p >Tenebre occultantur lumine, etc. usque in finem epistole, talis est sensus: Divine inconprehensibilitatis excellentie a sensibili et intellectuali cognitione absconduntur. Et quanto maior fuerit circa talem cognitionem exercitatio, tanto maior erit contemplationis divine inconprehensibilitatis occultatio. Quasi diceret. Quanto magis cognitioni intellectuali vel sensibili insistitur, tanto plus contemplatio divine superlucentis
+          lucis absconditur. Ignorantiam etiam occultant cognitiones, quia unitionem ad ipsam invisibilem lucem impediunt sensibiles vel intellectuales cognitiones. Et quanto maior fuerit talium cognitio magis retardatur unitio. Hec autem duo vocabula tenebre et ignorantia dicuntur de divinis per excessum luminis, non per privationem. Unde in veritate dicendum, quod, qui tantum habent philosophicam cognitionem, nullo modo experiri possunt divinam vel superintellectualem unitionem. Non solum autem ipsa ad Deum unitio, set etiam ipsa que per unitionem consequitur excedentis luminis contemplatio omni humano sensui subtrahitur et a nullo intellectu conprehenditur. Si autem aliquis intellectuali cognitione illuminatus ita elevatus est ut Deum vidisse se arbitretur et illud quod mente vidit intellectu conprehendat, decipitur, quia non vidit Deum, cum sit invisibilis nobis. Set dicendum est quod ipse vidit aliquas luculentias intellectuales, que habent rationem essendi et aptitudinem cognoscendi. Nam ipse Deus est supra rationem entis et supra intellectum omnis mentis. Unde non est cognoscibilis a nobis, nec conprehensibilis. Quoniam ipsius essentia excedit omne ens, et ipsius cognitio omnem superat creatum intellectum. Propter quod secundum rationem melioris status in hac vita perfecta ad Deum per excessum amoris unitio est dignissima omnium que cadere possunt sub ratione intellectus, cognitio.
+        </p>
+        
+      </div>
+    </body>
+  </text>
+</TEI>
