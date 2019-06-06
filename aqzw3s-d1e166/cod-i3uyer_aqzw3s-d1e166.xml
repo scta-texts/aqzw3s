@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -21,21 +22,22 @@
           <ref target="http://petrushispanus.eu/project1">Project Petrus Hispanus Works</ref>
         </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+              >Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="A" n="cod-i3uy34">Alonso 1957</witness>
+          <witness xml:id="A" n="cod-i3uyer">Alonso 1957</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-          guidelines for a critical edition.
-        </p>
+          guidelines for a critical edition. </p>
       </editorialDecl>
     </encodingDesc>
     <revisionDesc status="draft">
@@ -48,19 +50,24 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="starts-on">
-
-      </div>
+      <div xml:id="starts-on"> </div>
     </front>
     <body>
-      <div >
-        <head>Eiusdem ad Soscipatrum sacerdotem</head>
-        <p >Ne opineris, etc. usque in finem epistole talis est sensus: Non putes, o Sosipater, esse victoriam aut tibi ad victoriam provenisse, si tu irrogas contumeliam contra id quod aperte religioni consonum est, aut etiam contra illud quod pro religione vel contra religionem dubium est. Non enim pro eo quod religionem tibi ambiguam redarguis, tibi meritum bonitatis iuste ascribis. Est enim possibile non solum te, set etiam alios meliores te in plurimis que falsa sunt et falsa esse apparent unum aliquid quod verum sit, existere et latere. Neque enim si aliqua res dicatur non rubea, non tamen propter hoc sequitur quod sit alba. Similiter si aliqua res non dicitur esse equus, non propter
-hoc sequitur ex necessitate quod sit homo, quia potest esse asinus vel capra. Unde ita consulo tibi secundum fidelitatem meam et credulitatem, ut non sis facilis ad contradicendum aliis, maxime in hiis que dubia sunt. At ubi cognoveris veritatem, secure loquere, sicut conscius quod ea que dicis, nullam habent notam reprehensionis.
-
-        </p>
-        <p >EXPLICIT</p>
-
+      <div xml:id="aqzw3s-d1e166">
+        <head xml:id="aqzw3s-d1e166-Hd1e105">Eiusdem ad Soscipatrum sacerdotem</head>
+        <p xml:id="aqzw3s-d1e166-d1e108">Ne opineris, etc. usque in finem epistole talis est sensus:
+          Non putes, o Sosipater, esse victoriam aut tibi ad victoriam provenisse, si tu irrogas
+          contumeliam contra id quod aperte religioni consonum est, aut etiam contra illud quod pro
+          religione vel contra religionem dubium est. Non enim pro eo quod religionem tibi ambiguam
+          redarguis, tibi meritum bonitatis iuste ascribis. Est enim possibile non solum te, set
+          etiam alios meliores te in plurimis que falsa sunt et falsa esse apparent unum aliquid
+          quod verum sit, existere et latere. Neque enim si aliqua res dicatur non rubea, non tamen
+          propter hoc sequitur quod sit alba. Similiter si aliqua res non dicitur esse equus, non
+          propter hoc sequitur ex necessitate quod sit homo, quia potest esse asinus vel capra. Unde
+          ita consulo tibi secundum fidelitatem meam et credulitatem, ut non sis facilis ad
+          contradicendum aliis, maxime in hiis que dubia sunt. At ubi cognoveris veritatem, secure
+          loquere, sicut conscius quod ea que dicis, nullam habent notam reprehensionis. </p>
+        <p xml:id="aqzw3s-d1e166-d1e111">EXPLICIT</p>
       </div>
     </body>
   </text>
